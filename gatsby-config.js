@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'prist', // (REQUIRED, replace with your own)
+            repositoryName: 'prismic.ely.io', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
         }
     },
@@ -43,13 +43,13 @@ module.exports = {
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
-    {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-            trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-            head: true,
-        },
-    },
+   // {
+   //     resolve: `gatsby-plugin-google-analytics`,
+   //     options: {
+   //         trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+   //         head: true,
+  //      },
+  //  },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
