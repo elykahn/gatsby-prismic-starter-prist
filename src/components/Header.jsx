@@ -91,6 +91,12 @@ const Header = () => (
                 </Link>
             </HeaderLinks>
         </HeaderContent>
+        <script>
+  window.prismic = {
+    endpoint: 'https://prismicelyio.cdn.prismic.io/api/v2'
+  };
+</script>
+<script type="text/javascript" src="https://static.cdn.prismic.io/prismic.min.js"></script>
     </HeaderContainer>
 )
 
